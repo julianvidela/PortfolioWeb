@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:#080808;
+}
+
+
+
+h1{
+    color: blueviolet;
+}
+
+
+
+.bg-orange{
+    background-color: var(--bg-background-orange);
+    border: 1px solid var(--border-oragne);
+    color: var(--text-color-orange);
+}
+
+
+
+.bg-img-profile{
+    background-image: url('../../../common/assets/img/imgProfile.jpg');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
+
+
+  :root {
+    --background: #080808;
+  
+    --text-color-primary: #808080;
+    --text-color-secondary: #C4C4C4;
+   
+    --bg-linkedIn: #5c5c5c;
+    --text-color-linkedIn: #02a7ff;
+    --border-linkedIn: #3fbcff70;
+  
+    --bg-github: #00000080;
+    --text-color-github: #a7a7a7;
+    --border-github: #ffffff6b;
+  
+    --bg-instagram: #6631d87e;
+    --text-color-instagram: #7B62FF;
+    --border-instagram: #7c62ff80;
+    
+    --bg-gmail: #dd363670;
+    --text-color-gmail: #ff5e5e;
+    --border-gmail: #ff5e5e7e;
+  
+  
+    --border-primary:#ffffff15;
+  
+    --border-green: rgb(0, 126, 80);
+
+    --text-color-orange: rgb(255, 60, 0);
+    --border-oragne: rgba(255, 60, 0, 0.15);
+    --bg-background-orange: rgba(255, 60, 0, 0.13);
+
+     
+  
+  
+  }
+
+ 
+  

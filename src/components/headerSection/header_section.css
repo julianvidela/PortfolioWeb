@@ -1,0 +1,44 @@
+.div-bg {
+  position: relative;
+  border: 1px solid var(--border-primary);
+  background-color: rgba(20, 20, 20, 0);
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  opacity: 1;
+  will-change: auto;
+  overflow: hidden;
+  color: white;
+  
+}
+
+.div-bg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(31deg, rgba(255, 0, 0, 0.089) 0%, rgba(20, 20, 20, 0.5) 25%);
+  opacity: 0;
+  transition: opacity 500ms ease-in-out; 
+  border-radius: inherit;
+  color: red;
+  
+}
+
+.bg-img-profile{
+  background-image: url('../../common/assets/img/imgProfile.jpg');
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+
+.div-bg::before {
+  opacity: 1; 
+  color: white;
+  
+
+}
+

@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #080808;
+
+  --text-color-primary: #808080;
+  --text-color-secondary: #C4C4C4;
+ 
+  --bg-linkedIn: #5c5c5c;
+  --text-color-linkedIn: #02a7ff;
+  --border-linkedIn: #3fbcff70;
+
+  --bg-github: #00000080;
+  --text-color-github: #a7a7a7;
+  --border-github: #ffffff6b;
+
+  --bg-instagram: #6631d87e;
+  --text-color-instagram: #7B62FF;
+  --border-instagram: #7c62ff80;
+  
+  --bg-gmail: #dd363670;
+  --text-color-gmail: #ff5e5e;
+  --border-gmail: #ff5e5e7e;
+
+
+  --border-primary:#ffffff15;
+
+  --border-green: rgb(0, 126, 80);
+   
+
+
+}
+
+
+
+body {
+  
+  background: var(--background);
+  overflow-x: hidden;
+  font-family: var(--font-inter);
+ 
+}
+
+h2{
+  color: var(--text-color-secondary);
+  
+}
+

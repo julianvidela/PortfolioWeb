@@ -1,0 +1,27 @@
+.gradient-text {
+    font-family: var(--font-poppins);
+    font-size: 40px;
+    font-weight: bold;
+    background: #fcadfe;
+    background: linear-gradient(244.22deg, #61d3ff 4.88%, #fcadfe 40.37%, #9381f5 57.46%, #e8f0d0 87.65%, #61d3ff) 0 0 / 300% 100%; 
+    background-repeat: repeat-x;
+    color: white;
+    background-clip: text;
+    
+
+}
+
+@keyframes move-bg {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .gradient-text_anim {
+        animation: move-bg 8s linear infinite;
+    }
+}
