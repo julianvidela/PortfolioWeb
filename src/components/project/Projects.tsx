@@ -80,7 +80,7 @@ import Background from "@/atoms/backGround/BackGround";
 export const Projects = () => {
   return (
     <section className="mt-14 h-[45rem] min-h-screen relative">
-      {/* Fondo difuminado */}
+      
       <Background />
 
       <div className="flex gap-3 items-center z-10 relative">

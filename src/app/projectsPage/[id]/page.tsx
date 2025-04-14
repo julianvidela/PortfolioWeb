@@ -108,7 +108,7 @@ type Props = {
 };
 
 export default async function ProjectDetails({ params }: Props) {
-  const { id } = await params; // Desestructuramos con await
+  const { id } = await params; 
   const projectId = Number(id);
   if (isNaN(projectId)) {
     return <p>Invalid project ID</p>;

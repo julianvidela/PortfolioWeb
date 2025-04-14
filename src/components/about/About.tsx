@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-import "./about.css"
+
 
 export const About = () => {
   return (
