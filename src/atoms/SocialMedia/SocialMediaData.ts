@@ -23,7 +23,7 @@ export const socialLinks = [
   },
   {
     name: 'Gmail',
-    href: 'mailto:julianvyd@gmail.com?subject=Offer%20Inquiry&body=Hi,%20how%20can%20I%20help%20you?',
+    href: 'https://mail.google.com/mail/?view=cm&fs=1&to=julianvyd@gmail.com&su=Offer%20Inquiry&body=Hi,%20how%20can%20I%20help%20you?',
     className: 'text-[var(--text-color-gmail)] border-[var(--border-primary)] hover:border-[var(--border-gmail)] p-2 rounded-full hover:bg-gradient-to-r hover:from-white/10 hover:via-black hover:to-black/25',
     icon: icons.gmail,
   },
