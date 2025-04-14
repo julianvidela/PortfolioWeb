@@ -15,7 +15,7 @@
 // export default Background;
 
 import React from 'react';
-import './backGround.css'; 
+import './background.css'; 
 
 const Background: React.FC = () => {
   return (
