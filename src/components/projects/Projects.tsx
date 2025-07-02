@@ -1,4 +1,4 @@
-import { ProjectsLinks } from "./data/ProjectsData";
+import { ProjectsData } from "../../data/ProjectsData";
 import Image from "next/image";
 import icons from "@/common/assets/icons/_index";
 import Link from "next/link";
@@ -17,7 +17,7 @@ export const Projects = () => {
           <h2 className="text-[var(--text-color-secondary)]">Projects</h2>
         </div>
         <div className="flex flex-col w-full gap-4 h-auto items-center mt-7">
-          {ProjectsLinks.map((project) => (
+          {ProjectsData.map((project) => (
             <div key={project.id} className="w-full">
               <div className="flex justify-start w-full">
                 <p className="text-[var(--text-color-primary)] text-[14px] font-normal mt-2">

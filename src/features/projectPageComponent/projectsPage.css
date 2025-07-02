@@ -23,7 +23,7 @@ h1{
 
 
 .bg-img-profile{
-    background-image: url('../../../common/assets/img/imgProfile.jpg');
+    background-image: url('../../common/assets/img/imgProfile.jpg');
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
